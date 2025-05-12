@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример сайта</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #35424a;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #35424a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        .content {
+            padding: 20px;
+            background: white;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на наш сайт</h1>
+</header>
+
+<nav>
+    <a href="#home">Главная</a>
+    <a href="#about">О нас</a>
+    <a href="#services">Услуги</a>
+    <a href="#contact">Контакты</a>
+</nav>
+
+<div class="container">
+    <div class="content" id="home">
+        <h2>Главная страница</h2>
+        <p>Это пример контента на главной странице.</p>
+        <button class="button" onclick="alert('Кнопка 1 нажата!')">Кнопка 1</button>
+        <button class="button" onclick="alert('Кнопка 2 нажата!')">Кнопка 2</button>
+    </div>
+
+    <div class="content" id="about">
+        <h2>О нас</h2>
+        <p>Информация о нашей компании.</p>
+        <button class="button" onclick="alert('Кнопка 3 нажата!')">Кнопка 3</button>
+    </div>
+
+    <div class="content" id="services">
+        <h2>Услуги</h2>
+        <p>Описание наших услуг.</p>
+        <button class="button" onclick="alert('Кнопка 4 нажата!')">Кнопка 4</button>
+        <button class="button" onclick="alert('Кнопка 5 нажата!')">Кнопка 5</button>
+    </div>
+
+    <div class="content" id="contact">
+        <h2>Контакты</h2>
+        <p>Как с нами связаться.</p>
+        <button class="button" onclick="alert('Кнопка 6 нажата!')">Кнопка 6</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2023 Пример сайта. Все права защищены.</p>
+    <nav>
+        <a href="#home">Главная</a>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+</footer>
+
+</body>
+</html>
